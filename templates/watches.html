@@ -1,0 +1,17 @@
+
+{% extends 'layout.html' %}
+{% block content %}
+<h2>Our Watches</h2>
+<div class="row">
+{% for eachwatch in watches %}
+<div class="col-md-4">
+<div class="card mb-3">
+<img src="{{ eachwatch.image }}" class="card-img-top">
+<div class="card-body">
+<h5>{{ eachwatch.name }}</h5>
+<p>₹{{ eachwatch.price }}</p>
+<a href="/watch/{{ eachwatch.id }}" class="btn btn-dark">View</a>
+</div></div></div>
+{% endfor %}
+</div>
+{% endblock %}

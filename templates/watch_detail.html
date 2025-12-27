@@ -1,0 +1,15 @@
+
+{% extends 'layout.html' %}
+{% block content %}
+<div class="row">
+<div class="col-md-6">
+<img src="/static/images/{{ watch.image }}" class="img-fluid">
+</div>
+<div class="col-md-6">
+<h2>{{ watch.name }}</h2>
+<p>{{ watch.description }}</p>
+<h4>₹{{ watch.price }}</h4>
+<a href="/cart/{{ watch.id }}" class="btn btn-success">Add to Cart</a>
+</div>
+</div>
+{% endblock %}

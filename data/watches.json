@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Analog Watch",
+        "price": 699,
+        "image": "analog.jpg",
+        "description": "Elegant analog watch."
+    },
+    {
+        "id": 2,
+        "name": "Digital Sports Watch",
+        "price": 899,
+        "image": "digital.jpg",
+        "description": "LED digital sports watch."
+    },
+    {
+        "id": 3,
+        "name": "Smartwatch Lite",
+        "price": 1999,
+        "image": "smartwatch.jpg",
+        "description": "Touchscreen smartwatch."
+    }
+]

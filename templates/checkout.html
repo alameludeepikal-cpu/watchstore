@@ -1,0 +1,12 @@
+
+{% extends 'layout.html' %}
+{% block content %}
+<h2>Checkout</h2>
+<form method="POST">
+<label>Name</label><input name="name" class="form-control">
+<label>Address</label><input name="address" class="form-control">
+<input type="hidden" name="total" value="{{ total }}">
+<br>
+<button class="btn btn-success">Place Order (₹{{ total }})</button>
+</form>
+{% endblock %}
