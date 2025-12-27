@@ -20,7 +20,7 @@ def watches():
 @app.route("/watch/<int:id>")
 def watch_detail(id):
 
-    filename= open("data\watches.json","r")
+    filename= open("data/watches.json","r")
     products = json.load(filename)
     product = None
 
