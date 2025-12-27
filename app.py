@@ -59,7 +59,7 @@ def add_and_show_cart(id):
 def checkout():
     
     #this loads the file data
-    filename=open("data\watches.json","r")
+    filename=open("data/watches.json","r")
     products=json.load(filename)
     #get the data from session storage
     cart_ids=session.get("cart", [])
